@@ -12,6 +12,7 @@ export default class Login extends Vue{
     }
     submit(){
         console.log("hello");
+        this.$router.push('listing');
     }
     mounted():void{
         console.log("hello mounted");
